@@ -1,3 +1,17 @@
+# Description
+# AlterEgoちゃん
+#
+# Dependencies:
+# None
+#
+# Configuration:
+#
+# Commands:
+# hubot yahoo-now - display the latest news in yahoo news feed.
+#
+# Author:
+# MaxMEllon(http://maxmellon.github.io/)
+#
 cronJob = require('cron').CronJob
 
 module.exports = (robot) ->

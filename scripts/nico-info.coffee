@@ -1,3 +1,19 @@
+# Description
+# A Hubot script that display the latest ranking and movie info in nicovideo.
+#
+# Dependencies:
+# None
+#
+# Configuration:
+# "moment": "^2.8.2",
+# "xml2js": "^0.4.4"
+#
+# Commands:
+#
+# Author:
+#
+# https://github.com/bouzuya/hubot-yahoo-now/blob/master/src/scripts/yahoo-now.coffee
+
 module.exports = (robot) ->
   require('hubot-arm') robot
   {parseString} = require 'xml2js'
