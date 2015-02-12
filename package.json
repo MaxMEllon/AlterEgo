@@ -1,0 +1,40 @@
+{
+  "name": "AlterEgo",
+  "version": "0.0.0",
+  "private": true,
+  "author": "MaxMellon",
+  "description": "my bot",
+  "dependencies": {
+    "cheerio": "^0.18.0",
+    "cron": "^1.0.6",
+    "gitio2": "^2.0.0",
+    "html2js": "^0.1.0",
+    "hubot": "^2.11.0",
+    "hubot-arm": "^0.2.1",
+    "hubot-diagnostics": "0.0.1",
+    "hubot-google-images": "^0.1.2",
+    "hubot-google-translate": "^0.1.0",
+    "hubot-help": "^0.1.1",
+    "hubot-heroku-keepalive": "0.0.4",
+    "hubot-irc": "^0.2.7",
+    "hubot-logger": "0.0.11",
+    "hubot-maps": "0.0.1",
+    "hubot-pugme": "^0.1.0",
+    "hubot-redis-brain": "0.0.2",
+    "hubot-request-arm": "^0.2.1",
+    "hubot-rules": "^0.1.0",
+    "hubot-scripts": "^2.5.16",
+    "hubot-shipit": "^0.1.1",
+    "hubot-youtube": "^0.1.2",
+    "iconv": "^2.1.5",
+    "moment": "^2.9.0",
+    "querystring": "^0.2.0",
+    "request": "^2.53.0",
+    "time": "^0.11.0",
+    "url": "^0.10.2",
+    "xml2js": "^0.4.4"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
