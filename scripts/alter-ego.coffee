@@ -54,7 +54,10 @@ module.exports = (robot) ->
   robot.hear /こんな世の中じゃ/i, (msg) ->
     msg.send "ポイズン"
 
-  robot.hear /info/i, (msg) ->
+  robot.respond /将棋/i, (msg) ->
+    msg.send "http://sdin.jp/browser/board/shogi/"
+
+  robot.respond /info/i, (msg) ->
     msg.send """
     ---------------------------------------------
     - # log
@@ -77,9 +80,10 @@ module.exports = (robot) ->
     - # niconico
     - AlterEgo nico sm******
     - AlterEgo nico ranking
+    - AlterEgo nico ranking <個数>
     ---------------------------------------------
-    - # find-work
-    - AlterEgo find
+    - # book
+    - AlterEgo book
     ---------------------------------------------
     - # web-manga
     - AlterEgo web-manga
