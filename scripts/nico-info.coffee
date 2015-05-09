@@ -11,8 +11,8 @@
 # Commands:
 #
 # Author:
-#
-# https://github.com/bouzuya/hubot-yahoo-now/blob/master/src/scripts/yahoo-now.coffee
+# MaxMEllon
+# https://github.com/MaxMEllon/AlterEgo/blob/master/scripts/nico-info.coffee
 
 module.exports = (robot) ->
   require('hubot-arm') robot
